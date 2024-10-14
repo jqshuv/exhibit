@@ -11,15 +11,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/jqshuv/exhibit">
+  <!-- <a href="https://github.com/jqshuv/exhibit">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
+  </a> -->
+  <h3 align="center">exhibit</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
+    📇 Work in progress job board with apply feature.
+    <!-- <br />
     <a href="https://github.com/jqshuv/exhibit"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -27,7 +26,7 @@
     ·
     <a href="https://github.com/jqshuv/exhibit/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/jqshuv/exhibit/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/jqshuv/exhibit/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a> -->
   </p>
 </div>
 
@@ -67,8 +66,6 @@
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Exhibit is an open-source board for jobs and applications. You can publish jobs and users can send applications to the admin with all information and also uploadable CVs. It also includes notifications about the application status, 
-
-Use the `BLANK_README.md` to get started.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -215,7 +212,7 @@ We ack
 [issues-url]: https://github.com/jqshuv/exhibit/issues
 [license-shield]: https://img.shields.io/github/license/jqshuv/exhibit.svg?style=for-the-badge
 [license-url]: https://github.com/jqshuv/exhibit/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: .github/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
