@@ -6,7 +6,8 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-
+> [!TIP]
+> 🎉 Now open-source for everyone!
 
 <!-- PROJECT LOGO -->
 <br />
