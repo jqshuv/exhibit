@@ -13,17 +13,19 @@ jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+    strategy:
+      matrix:
+        node-version: [20]
     steps:
     - uses: actions/checkout@v4
     - name: Install pnpm
       uses: pnpm/action-setup@v4
       with:
-        version: 9.12.1+sha512.e5a7e52a4183a02d5931057f7a0dbff9d5e9ce3161e33fa68ae392125b79282a8a8a470a51dfc8a0ed86221442eb2fb57019b0990ed24fab519bf0e1bc5ccfc4
-    - name: Use Node.js 20.x
+        version: 9.12.1
+    - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v4
       with:
-        node-version: 0.x
+        node-version: ${{ matrix.node-version }}
         cache: 'pnpm'
     - run: npm ci
     - run: npm run build --if-present
